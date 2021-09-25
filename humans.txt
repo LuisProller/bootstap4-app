@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Luis Dutra -- Autor -- site alguma
+    Desenv 2   -- Revisão -- @desenv
+
+# THANKS
+
+    Alexandra
+    Pai
+    Mãe
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, JavaScript, Bootstrap4
+    Apache Server Configs, jQuery, Modernizr, Normalize.css

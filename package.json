@@ -1,0 +1,25 @@
+{
+    "name": "bootstrap4-app",
+    "version": "0.0.1",
+    "description": "aplicativo demonstrativo com bootstrap4",
+    "keywords": [
+        "bootstrap",
+        "bootstrap4"
+    ],
+    "license": "MIT",
+    "author": "Luis Dutra",
+    "scripts": {
+        "build": "parcel build index.html",
+        "dev": "parcel index.html",
+        "start": "npm run build && npm run dev",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "bootstrap": "^4.6.0",
+        "bootstrap-icons": "^1.4.1",
+        "jquery": "^3.6.0",
+        "parcel-bundler": "^1.12.4",
+        "popper.js": "^1.16.1"
+    },
+    "dependencies": {}
+}
