@@ -1,0 +1,88 @@
+<!doctype html>
+<html class="no-js" lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Meu aplicativo com Bootstrap 4</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+
+  <div class="container-fluid my-0 px-0">
+
+    <div class="d-flex flex-column" style="min-height: 100vh;"> <!-- display: flex -->
+      <nav class="navbar bg-dark navbar-dark navbar-expand-sm fixed-top">
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarPrincipal"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="#" class="navbar-brand"> Logo </a>
+      </nav>
+      <main class="flex-grow-1 flex-column flex-md-row mt-5 my-md-4 mx-3 pt-5 text-center">
+        <div class="jumbotron jumbotron-fluid bg-info text-white">
+          <div class="container-lg">
+            <h1>
+              Lista de Compras
+            </h1>
+            <p class="lead">
+              Adicione ou remova itens em sua lista de Compras.
+            </p>
+          </div>
+        </div>
+        <div class="container flex-grow-1">
+          <form action="">
+              <button id="btn-adicionar" type="button" class="form-control btn btn-success text-center">
+                <i class="bi bi-plus-circle-fill"></i> Adicionar
+              </button>
+
+          </form>
+          <div class="container flex-grow-1 mt-3" id="div-pai">
+          </div>
+        </div>
+      </main>
+      <footer class="bg-light text-black-50 font-italic text-center p-3">
+        &lt; Copyright &copy; 2021 Giulianno Alves &gt; <!-- greater than -->
+      </footer>
+    </div>
+
+  </div>
+
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
