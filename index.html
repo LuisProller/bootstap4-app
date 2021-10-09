@@ -28,8 +28,8 @@
         <div class="d-flex flex-column" style="min-height: 100vh;">
             <nav class="navbar bg-dark navbar-dark navbar-expand-sm fixed-top">
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarPrincipal">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
+          <span class="navbar-toggler-icon"></span>
+        </button>
                 <a href="#" class="navbar-brand">Logo</a>
                 <div class="d-md-none"></div>
                 <div id="navbarPrincipal" class="collapse navbar-collapse">
@@ -48,6 +48,9 @@
             <main class="flex-grow-1 flex-column flex-md-row mt-5 my-md-4 mx-3 pt-5 text-center">
                 <div class="jumbotron jumbotron-fluid bg-info text-white">
                     <div class="container-lg">
+                        <h1>
+                            <i class="bi"></i>Juros
+                        </h1>
                         <p class="lead">
                             Cálculo de Juros Simples
                         </p>
@@ -56,13 +59,23 @@
                 <div class="container">
                     <form>
                         <div class="form-row">
+                            <output class="col text-center text-dark display-2">0</output>
+                        </div>
+                        <div class="form-row">
                             <div class="col">
-                                <input autofocus type="text" class="form-control text-center" name="color">
+                                <input autofocus id="inputValor" type="text" class="form-control text-center" name="valor">
                             </div>
                             <div class="col">
-                                <button type="submit" class="form-control btn btn-primary text-center">
-                  Visualizar
-                </button>
+                                <input id="inputJuro" type="text" class="form-control text-center" name="juro">
+                            </div>
+                            <div class="col">
+                                <input id="inputMes" type="text" class="form-control text-center" name="mes">
+                            </div>
+                        </div>
+                        <br />
+                        <div class="form-row">
+                            <div class="col">
+                                <button type="submit" class="form-control btn btn-primary text-center">Calcular</button>
                             </div>
                         </div>
                     </form>
